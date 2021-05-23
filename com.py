@@ -4,7 +4,7 @@ def combine(list,m,s,e,n):
     else:
         for i in range(s,e+2+m-n):
             list[m]=i
-            com(list,m+1,i+1,e,n)
+            combine(list,m+1,i+1,e,n)
 
 l1=[0,0,0]
 combine(l1,0,1,6,3)
