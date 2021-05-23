@@ -1,4 +1,4 @@
-def com(list,m,s,e,n):
+def combine(list,m,s,e,n):
     if (m==n):
         print(list)
     else:
@@ -7,4 +7,4 @@ def com(list,m,s,e,n):
             com(list,m+1,i+1,e,n)
 
 l1=[0,0,0]
-com(l1,0,1,20,3)
+combine(l1,0,1,6,3)
