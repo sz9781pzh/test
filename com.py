@@ -7,4 +7,4 @@ def combine(list,m,s,e,n):
             combine(list,m+1,i+1,e,n)
 
 l1=[0,0,0]
-combine(l1,0,1,6,3)
+combine(l1,0,3,8,3)
